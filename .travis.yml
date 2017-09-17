@@ -3,4 +3,3 @@ deploy:
   buildpack: go
   api_key:
     secure: "YOUR ENCRYPTED API KEY"
-  strategy: git
