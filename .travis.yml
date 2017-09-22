@@ -1,7 +1,6 @@
 language: go
 deploy:
   provider: heroku
-  buildpack: https://github.com/awkwardben/go-build-buildpack.git
   api_key:
     secure: "eKpU4PlOPtNMvg9558TWQRiVF5gTAjCW95pymsaIbmW1B9htayBsGr1uSb6si1/NuzHN3tldqT46syEPfDvIkcIxjSig+ffDGnkjF45X62/7LlM1OLNPHjVJ92cVYQAuy0xvTDbT2+5IMIJ1Xr5I3rymfElvntandEvw2urBocV/qUMYRSlSZjFwMfUCa7wraZnbPYctMHnlDm4UDKzp/+/Xe1iQKFVNj2K+WsyEx99dGebWfnseQ0D8jR0OOFMzzt2TBrrhgjBzRk+VAmbSsGuSQZ4D9e9GHzeSoIXPrraYJ60WKiIrVqbg5xCyZ8DkQChYfLF+sIRRuSncHn5MBy3fowrUc0Wa+zteqxAGBkzUVNdNnzifVrKx5TDIgfV+KpYUy/X//3WGVboxQwXZPFz9cS8+qBk/w+mcJiVagLxrN4iP4vsTFtcvNmQq+gZSseKQriJS91s4bNtx5K5BJMOZnQYupHKeqiouhJN/xz/9+uKLIiqDZ4TDIoyqDJpO+yYvZFp9d8wwyeCecSN2w6pFelhWvh2tI78HrqSU+E7f8AxNT5eADV7F2dlhs2tIzpjB6+pCMh0tXhkaTes9+XaxFxB98jWTr1NgHcWUZPHSVxs7VtEXvneZSIhlrqSNkUdSgN10yTdNwn6jXsZE87C3rjBGFNSSdfIjm1G9uSg="
   app: go-build
